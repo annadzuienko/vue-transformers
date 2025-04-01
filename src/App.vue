@@ -1,15 +1,16 @@
 <template>
-  <div>Coming soon...</div>
+  <TransformersDashboard />
 </template>
 
 <script setup lang="ts">
+  import TransformersDashboard from './components/TransformersDashboard.vue';
 </script>
 
 <style>
-@import 'vuetify/styles';
+  @import 'vuetify/styles';
 
-body {
-  margin: 0;
-  font-family: Roboto, sans-serif;
-}
+  body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+  }
 </style>
