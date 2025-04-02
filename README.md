@@ -30,8 +30,20 @@ npm run dev
 npm run build
 ```
 
+### Local Deployment (Docker)
+```
+Build Docker image
+docker build -t transformer-dashboard .
+
+Run the container
+docker run -p 8080:80 transformer-dashboard
+
+Access the app Visit:
+http://localhost:8080
+```
+
 ### Lint with [ESLint](https://eslint.org/)
 
-```sh
+```
 npm run lint
 ```
