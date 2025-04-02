@@ -32,11 +32,16 @@ npm run build
 
 ### Local Deployment (Docker)
 ```
+Clone repository and switch to master branch:
+git clone https://github.com/annadzuienko/vue-transformers.git
+cd vue-transformers
+git checkout master
+
 Build Docker image
-docker build -t transformer-dashboard .
+docker build -t vue-transformers .
 
 Run the container
-docker run -p 8080:80 transformer-dashboard
+docker run -p 8080:80 vue-transformers
 
 Access the app Visit:
 http://localhost:8080
